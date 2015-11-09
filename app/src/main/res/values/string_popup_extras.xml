@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Search Extras Code -->
+    <string name="extra_search_url">searchUrl</string>
+    <string name="extra_date_year">year</string>
+    <string name="extra_date_month">month</string>
+    <string name="extra_date_day">day</string>
+    <string name="extra_min_date_year">minYear</string>
+    <string name="extra_min_date_month">minMonth</string>
+    <string name="extra_min_date_day">minDay</string>
+    <string name="extra_is_has_minimum_date">minimumDate</string>
+    <string name="extra_date_hour">hour</string>
+    <string name="extra_date_minute">minute</string>
+    <string name="extra_title_dialog">title</string>    
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Dialog -->
+    <string name="dialog_set_time">Set Time</string>
+</resources>
