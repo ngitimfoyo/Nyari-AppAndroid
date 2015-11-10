@@ -182,4 +182,10 @@
     <string name="gcm_server_url">RegisterForUserNotifications</string>
 
     <string name="search_label">Search</string>
+    <string name="description">Description</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="version">Version</string>
+    <string name="send_email_using">Send email using: </string>
 </resources>
