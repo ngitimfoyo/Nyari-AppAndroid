@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/doc_pull_refresh_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:choiceMode="singleChoice"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="#19000000"
+            android:dividerHeight="4dp"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:smoothScrollbar="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doc_progress_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/registration_text_left_right_margin"
+            android:text="@string/loading"
+            android:textColor="@color/grey2"
+            android:textSize="@dimen/font_size_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doc_error_page_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/doc_error_page_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/refresh_button"
+            android:src="@android:drawable/ic_popup_sync" />
+
+        <TextView
+            android:id="@+id/doc_error_page_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/docSearchScope"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/docBtnAll"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:text="@string/search_all" />
+
+        <Button
+            android:id="@+id/docBtnWord"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:text="@string/search_word" />
+
+        <Button
+            android:id="@+id/docBtnPDF"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:text="@string/search_pdf" />
+
+        <Button
+            android:id="@+id/docBtnEmail"
+            style="@android:style/ButtonBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:text="@string/search_email" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/docHR"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@id/docSearchScope"
+        android:background="@color/gray_2"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/docSearchResult"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/docSearchScope"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/docSearchResultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/search_no_result"
+            android:textColor="@color/gray_1"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/docProgressSpin"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="2dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

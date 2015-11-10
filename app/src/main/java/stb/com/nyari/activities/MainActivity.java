@@ -20,7 +20,7 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 
 import stb.com.nyari.R;
-import stb.com.nyari.adapters.CustomExpandAdapter;
+import stb.com.nyari.models.adapters.CustomExpandAdapter;
 import stb.com.nyari.fragments.FragmentFactory;
 import stb.com.nyari.models.LeftMenuModel;
 

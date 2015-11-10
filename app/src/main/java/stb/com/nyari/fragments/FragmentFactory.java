@@ -9,7 +9,7 @@ public class FragmentFactory {
 		if (groupPos < 2) {
 			switch (groupPos) {
 			case 0:
-				fragment = new Fragment1();
+				fragment = new FragmentCategory();
 				break;
 			case 1:
 				fragment = new Fragment2();

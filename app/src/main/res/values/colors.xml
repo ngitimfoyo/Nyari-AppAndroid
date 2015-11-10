@@ -1,5 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="drawer_background">#3b5998</color>
     <color name="cool_gray">#eaeaea</color>
+    <color name="text_disabled">#b3b3b3</color>
+    <color name="button_default">#304e87</color>
+    <color name="white">#fff</color>
+    <color name="button_highlight">#00cd00</color>
+    <color name="red">#c9000a</color>
+    <color name="black">#000</color>
+    <color name="blue">#405c83</color>
+    <color name="selected">#424242</color>
+    <color name="grey">#555555</color>
+    <color name="light_grey">#808080</color>
+    <color name="light_grey2">#d8dcd8</color>
+    <color name="grey2">#737373</color>
+    <color name="color_for_settings_background">#efeff4</color>
+    <color name="color_for_settings_hr">#e3e3e5</color>
+
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="color_button_text">#375389</color>
+    <color name="color_button_frame">#ababab</color>
+
+    <color name="color_progress_text">#acd9ac</color>
+
+    <color name="color_list_base">#a95b63</color>
+    <color name="color_list_modif">#959595</color>
+    <color name="color_ltgray">#ddd</color>
+
+    <color name="color_document_viewed_yes">#aa6161</color>
+    <color name="color_document_viewed_no">#8a0509</color>
+
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+
+    <color name="purple">#3502a5</color>
+    <color name="light_purple">#c9aff5</color>
+    <color name="very_light_purple">#eae4f3</color>
 </resources>

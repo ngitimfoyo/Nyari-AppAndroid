@@ -25,4 +25,161 @@
     <string name="moon">Cari Janda</string>
     <string name="Planets">Cari Tante</string>
     <string name="title_activity_maps">Map</string>
+
+    <!-- Views -->
+    <!-- Register -->
+    <string name="reg_title">RedView</string>
+    <string name="reg_subtitle">Convey</string>
+    <string name="reg_reg_details">Registration Details</string>
+    <string name="reg_firm_id">Firm ID</string>
+    <string name="reg_firm_id_hint">[Firm Tenant ID]</string>
+    <string name="reg_register">Register</string>
+    <string name="reg_version">Version </string>
+    <string name="reg_service_url">Service URL</string>
+    <string name="reg_service_url_hint">[Not required]</string>
+
+    <string name="user_id">User ID</string>
+    <string name="user_id_hint">[User Login ID]</string>
+    <string name="password">User Password</string>
+    <string name="password_hint">[User Login Password]</string>
+    <string name="remember_pwd">Remember Password</string>
+    <string name="connecting">Connecting &#8230;</string>
+    <string name="loading">Loading &#8230;</string>
+
+    <string name="login">Login</string>
+    <string name="login_details">Login Details</string>
+
+    <!-- Settings -->
+    <string name="display">Display</string>
+    <string name="advanced">Advanced</string>
+    <string name="about">About</string>
+    <string name="logoff">Logout</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="collapsed_panels">Collapsed Panels</string>
+    <string name="rows_per_page">Rows Per Page</string>
+    <string name="rows_per_page_desc">This setting defines the number of table rows to be returned for searches before another call to the server is required. For WIFI only connections try 200 as the setting to increase local chaching. For 3G or 4G connections 50 is the recommended setting.</string>
+    <string name="services_url_desc">This option is for advanced usage only and MUST BE ALWAYS BLANK unless specifically advised otherwise by Red Rain. If not, the software may not operate correctly</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_passwod">Confirm New Password</string>
+    <string name="save_password">Save Password</string>
+    <string name="about_text_title">About Convey</string>
+    <string name="about_text">2012&#8211;2014 Red Rain Corporation Pty Ltd\n All Right Reserved</string>
+    <string name="about_text_url">http://www.RedRainCorp.com</string>
+    <string name="about_more">For information on our privacy policy:</string>
+    <string name="about_text_url_policy">http://www.redraincorp.com/red-rain-privacy-policy</string>
+    <string name="about_button">Done</string>
+
+    <!-- Message -->
+    <string name="error_copying_database">Error copying database</string>
+
+    <string name="json_login_url">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-authenticationdomainservice.svc/json/login</string>
+    <string name="json_log_user">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-usermanagementservice.svc/json/</string>
+    <string name="json_matter_service">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-matterdomainservice.svc/json/</string>
+    <string name="json_name_service">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-namedomainservice.svc/json/</string>
+    <string name="json_practice_exception_service">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-practiceexceptiondomainservice.svc/json/</string>
+    <string name="json_lookup_domain_service">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-lookupdomainservice.svc/json/</string>
+    <string name="json_user_settings_service">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-usersettingdomainservice.svc/json/</string>
+    <string name="json_material_service">/clientbin/redrain-collaborate-riaserviceslibrary-web-services-materialdomainservice.svc/json/</string>
+    <!--  #define constLogout @"clientbin/redrain-collaborate-riaserviceslibrary-web-services-authenticationdomainservice.svc/json/logout" -->
+
+    <string name="msg_no_network_available">No network available</string>
+    <string name="msg_no_wifi_detected">Please use WIFI Network instead</string>
+    <string name="msg_no_mobile_detected">Please use Mobile Network instead</string>
+    <string name="msg_wifi_status_connected">Wifi/Mobile is connected</string>
+    <string name="msg_wifi_status_lost">Wifi/Mobile Connection Lost</string>
+    <string name="msg_wifi_status_disconnected">Wifi/Mobile is disconnected</string>
+    <string name="msg_demo_version">Demo version</string>
+
+    <!-- Cookie -->
+    <string name="cookie_collaborate">cookie_collaborate_tenant_id=</string>
+
+    <string name="refresh_button">refresh button</string>
+
+    <string name="date_format">dd-MMM-yyyy</string>
+    <string name="date_format_timeline">d-MMM-yy</string>
+    <string name="date_format_settlement">dd MMM yyyy</string>
+    <string name="date_and_time_format">MMM dd, yyyy, h:mm a</string>
+
+    <!-- Search -->
+    <string name="search_all">All</string>
+    <string name="search_current">Current</string>
+    <string name="search_completed">Completed</string>
+    <string name="search_no_result">No Results</string>
+    <string name="search_word">Word</string>
+    <string name="search_pdf">PDF</string>
+    <string name="search_email">Email</string>
+    <string name="search_on_server">Searching on Server</string>
+
+    <!-- Matter List -->
+    <string name="sort_by_settlement">Sort by Settlement Date</string>
+    <string name="sort_by_next_action_date">Sort by Next Action Date</string>
+
+    <!-- My Matters -->
+    <string name="my_matters_return_to_my_matters">Return to My Matters</string>
+
+    <string name="firm_logo">Firm Logo</string>
+    <string name="loading_image">Loading image&#8230;</string>
+    <string name="settlement_date">Settlement Date:</string>
+    <string name="days_to_go">0 day to go!</string>
+
+    <!-- Info -->
+    <string name="info_phone">Call</string>
+    <string name="info_email">Email</string>
+    <string name="info_web">Website</string>
+    <string name="info_location">Locate</string>
+
+    <!-- Agenda -->
+    <string name="agenda">Agenda</string>
+    <string name="agenda_description">Description</string>
+    <string name="agenda_completed">Completed</string>
+    <string name="agenda_due">Due</string>
+
+    <!-- Messages -->
+    <string name="messages_firm">Firm</string>
+    <string name="messages_client">Client</string>
+    <string name="messages_hello">Hello, Mate!</string>
+    <string name="messages_write">For internal use only</string>
+
+    <!-- Network error -->
+    <string name="error_network_title">Data Request Error</string>
+    <string name="error_network_message">The Internet connection appears to be offline.</string>
+    <string name="error_network_500">Expected status code in (200&#8211;299) got 500</string>
+    <string name="error_network_404">Expected status code in (200&#8211;299) got 404</string>
+    <string name="error_login_failed">User is not enabled to connect</string>
+    <string name="error_login_invalid_details">Invalid login details</string>
+    <string name="error_login_not_licensed">You are not licensed to use Convey, please contact your Administrator</string>
+    <string name="error_connection">Connection Error</string>
+
+    <!-- Document Details Action Bar -->
+    <string name="doc_details_email_document">E-mail Document</string>
+    <string name="doc_details_mark_document">Mark as Client Document</string>
+    <string name="doc_details_print_document">Print Document</string>
+
+    <string name="mark_all_user">Make Available to All Users</string>
+    <string name="mark_myself_only">Make Available to Myself Only</string>
+
+    <string name="email_doc_selected_addrs">Selected Addresses</string>
+    <string name="email_doc_other">Other</string>
+
+    <string name="error_something">Something went wrong. Tap refresh button to re-load data.</string>
+
+    <string name="doc_details_tap_to_open">Tap to view document</string>
+    <string name="doc_details_view_in">in 3rd party viewer</string>
+
+    <!-- Push Notification -->
+    <string name="push_noti">Push Notification</string>
+    <string name="push_noti_summary">Receive push notification from server</string>
+    <string name="push_noti_default_value">true</string>
+    <string name="push_noti_vibrate">Vibration</string>
+    <string name="push_noti_vibrate_summary">Vibrating on incoming notification</string>
+    <string name="push_noti_vibrate_default_value">true</string>
+
+    <!-- Google Cloud Messaging -->
+    <string name="gcm_message_title">Matter update</string>
+    <!-- sender id is project number not project id, sender id must be a number only -->
+    <string name="gcm_sender_id">579700500417</string>
+    <string name="gcm_server_url">RegisterForUserNotifications</string>
+
+    <string name="search_label">Search</string>
 </resources>

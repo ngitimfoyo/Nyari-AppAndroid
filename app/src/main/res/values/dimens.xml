@@ -1,4 +1,5 @@
 <resources>
     <dimen name="drawer_size">240dp</dimen>
     <dimen name="drawer_content_padding">0dp</dimen>
+    <dimen name="input_padding">10dip</dimen>
 </resources>

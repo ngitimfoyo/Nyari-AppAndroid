@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="edittext_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+    <style name="edittext_layout" parent="edittext_style">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">@dimen/input_padding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="edittext_style_enable" parent="edittext_layout">
+        <item name="android:background">@drawable/input_text_bg_enable</item>
+    </style>
+
+    <style name="edittext_style_disable" parent="edittext_layout">
+        <item name="android:background">@drawable/input_text_bg_disable</item>
+    </style>
+
+    <style name="edittext_style_mandatory" parent="edittext_layout">
+        <item name="android:background">@drawable/input_text_bg_mandatory</item>
+    </style>
+</resources>
